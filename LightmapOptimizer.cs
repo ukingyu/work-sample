@@ -1,7 +1,6 @@
 /*------------------------------------------------------------------
 LightmapOptimizer : this tool optimizes lightmap by cutting it into
-smaller blocks, discarding black blocks(no data), and saving only 
-color rgb value for single-color blocks.
+smaller blocks and saving them accordingly.
 ------------------------------------------------------------------*/
 
 using UnityEngine;
