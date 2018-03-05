@@ -1,4 +1,10 @@
-﻿using UnityEngine;
+/*------------------------------------------------------------------
+LightmapOptimizer : this tool optimizes lightmap by cutting it into
+smaller blocks, discarding black blocks(no data), and saving only 
+color rgb value for single-color blocks.
+------------------------------------------------------------------*/
+
+using UnityEngine;
 using UnityEditor;
 using System.Collections;
 using System.Collections.Generic;
